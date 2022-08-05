@@ -17,7 +17,7 @@ int main(){
   employee2.Age = 25;
   employee2.IntroduceYourself();
   */
-  Employee employee1 = Employee("Justin","Amazon",24);
+  Employee employee1 = Employee("Justin","Sapienza",24);
   employee1.print();
 
   Employee employee2 = Employee("Nikhil","CERN",25);
