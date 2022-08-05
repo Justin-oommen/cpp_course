@@ -1,0 +1,11 @@
+#include<iostream> -- feature to load pre-built library
+
+main - starting point of c++ program
+       we also call them entry point of the c++ program
+       ie, if we open the program, the main function runs first
+
+endl - make a new line
+
+// - comment a line
+/*  */ - whatever inside is gets commented and none of it runs
+

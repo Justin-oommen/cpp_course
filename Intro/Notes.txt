@@ -1,0 +1,41 @@
+#include<iostream> -- feature to load pre-built library
+
+main - starting point of c++ program
+       we also call them entry point of the c++ program
+       ie, if we open the program, the main function runs first
+
+endl - make a new line
+
+// - comment a single line
+/*  */ - whatever inside is gets commented and none of it runs
+
+Compile Time Error:
+	make an error in code and when compiling the compiler gives complains
+
+Run Time Error:
+    	compilation sucseeds and but when run the program it doesnot do what we want. It is a logical error. It can cause the program to crash
+
+Warnings:
+	Compilation succeeds but tells there is a problem and it warns that it will cause problems in the future.
+
+Statements:
+
+	- Basic unit of computation in a c++ program
+	- every c++ program is a collection of statements
+	- statements ends with a semi coulmn (;)
+	- statements are executed in order and the order is TOP to BOTTOM
+--------------------------------------------------------------------------------------------
+A function must be declared before we use it.
+It consist of
+retrun_type name_of_function(parameter1, parameter2, etc){
+
+	    statements
+
+}
+
+- sometimes we can call function in std::cout rather than saving in a variable anfd printing it out
+  This comes in handy sometimes.
+  
+--------------------------------------------------------------------------------------------
+
+ 
