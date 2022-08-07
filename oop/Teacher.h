@@ -14,6 +14,10 @@ class Teacher: public Employee{
   Teacher(string name,string company, int age, string subject);
 
   void PrepareLesson();
+
+  virtual void print();
+  
+  //  virtual void work(){}
   
  private:
   string subject_;

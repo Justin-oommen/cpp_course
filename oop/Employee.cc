@@ -52,4 +52,3 @@ void Employee::print(){
     cout<<"Company: "<<company_<<endl;
     cout<<"Age: "<<age_<<endl;
 }
-

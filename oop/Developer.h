@@ -14,6 +14,8 @@ class Developer: public  Employee{
   Developer(string name, string company, int age, string favProgramLang);
   
   void details();
+
+  virtual void print();
   
  private:
   string favProgramLang_;

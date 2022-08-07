@@ -33,7 +33,15 @@ public:
 
   void AskForPromotion();
   
-  void print();
+  virtual void print();
+
+  //the most common use of polymorphism is when parent class reference is used
+  //parent class refernece is used to refer to a child class object.
+
+  //virtual functions are used to achieve polymorphic behaviour that is the
+  //same pointer behave according to the object that it points it to.
+
+  // virtual void work();
   
 private:
   string name_;

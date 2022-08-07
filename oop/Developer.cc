@@ -1,5 +1,6 @@
 //Developer.cc
 
+#include "Employee.h"
 #include "Developer.h"
 #include <iostream>
 
@@ -17,4 +18,8 @@ void Developer::details(){
 
   cout<<getName()<<" is using "<<favProgramLang_<<" to use coding "<<endl;
   
+}
+
+void Developer::print(){
+  cout<<"I am a Developer "<<getName()<<" at "<<getCompany()<<" using "<<favProgramLang_<<endl;
 }
