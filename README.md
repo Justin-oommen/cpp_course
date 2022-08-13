@@ -47,7 +47,7 @@ Default implementation is used in a meaningless way
    int main (int argc, char* argv[])
 
    argc stands for the number of command-line arguments.
-   argv is a vector of strings containing the command-line argument with
-   argv[0] containing the name of the program
-   argv[1], argv[2],.. etc. are the command-line arguments.
-   ie, the number of lines of input to the program.
+   argv is a vector of strings containing the command-line argument with 
+   argv[0] containing the name of the program 
+   argv[1], argv[2],.. etc. are the command-line arguments. 
+   ie, the number of lines of input to the program. 
