@@ -13,7 +13,7 @@ Therefore after learning the concepts of Object oriendted programming, I will tr
 
 Mostly this repository contains the worked out exercise rather than notes. I will try my best to comment the concepts during coding. If you are reading this try it out and be better than yesterday even if it is a small line of code that you implement by yourself. Learning is a big process we need consistent steps to move forward and I wish you all the best and wish me good luck also.
 
-I will be posting the exercises as well, if you want comment email me on justinpooomen@gmail.com
+I will be posting the exercises as well, if you want comment email me on justinooomen968@gmail.com
 
 ##Virtual and Pure virtual - Allows Polymorphic behaviour
 
@@ -40,3 +40,14 @@ Default implementation is used in a meaningless way
 • Pure virtual forces derived classes to ensure correct implementation
 
 
+# Introduction
+
+## Main() function
+
+   int main (int argc, char* argv[])
+
+   argc stands for the number of command-line arguments.
+   argv is a vector of strings containing the command-line argument with
+   argv[0] containing the name of the program
+   argv[1], argv[2],.. etc. are the command-line arguments.
+   ie, the number of lines of input to the program.
