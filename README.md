@@ -57,3 +57,29 @@ Default implementation is used in a meaningless way
    - Namespace is a way to collect all functions defined in C++ libraries. If we omit this declaration on top of the program we would have to add the declaration std in front of cout or cin.
    eg: std::cout,std::endl etc.
    
+   
+   
+## Representation of Interger Numbers:
+
+   - we have different in built data types in c++ for example int,float,double etc. 
+   - each of them takes a space of memory in our computer
+   - int takes 4 bytes of memory, float takes 4 bytes, double takes 8 bytes
+   - **1 byte = 8 bits**
+   
+      > therefore, int takes 4 * 8 = 32 bits of memory.
+      > 
+      > among the 32 bits, 1 bit is used to store the sign of the variable and the other 31 bits is used to store the number range from 0 to (2^31 - 1).
+      
+
+   - *Decimal Representation:-* 
+   
+      > 417 = 4 * 10^2 + 1 * 10^1 + 7 * 10^0
+
+   - *Binary Representation:-*
+   
+      > (417)base10 = (110100001)base2
+      > 
+      > Actually 417 is an integer so it take 32 bits of memory but as seen above 9 bits is enough to represent 417.
+      > But by default int store 32 buts of memory so the representation is more accurate with,
+      > (417)base10 = (00000000000000000000000110100001)base2
+
