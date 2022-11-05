@@ -1,0 +1,22 @@
+#include<iostream>
+//to read and write from our console
+//we use fstream library
+#include<fstream>
+using namespace::std;
+
+int main(){
+
+  //data type in stream
+  fstream myFile;
+
+  //open a file- open(name,mode[read or write])
+  
+  myFile.open("test.txt",ios::out); //write mode in to txt file
+  if (myFile.is_open()){
+      myFile<<"Hello\n";
+      myFile<<"This is second line\n";
+      myFile.close();
+    }
+  
+  return 0;
+}
