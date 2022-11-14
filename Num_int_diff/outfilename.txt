@@ -1,0 +1,7 @@
+RESULTS: 
+x              h_step     comp_derivative    exact_derivative
+0                   1           1.0861613                   1
+0                 0.1           1.0008336                   1
+0                0.01           1.0000083                   1
+0               0.001           1.0000001                   1
+0              0.0001                   1                   1
