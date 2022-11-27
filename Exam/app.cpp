@@ -20,7 +20,7 @@ int main(){
 
   s.set_mass(10);
   s.print();
-  std::cout<<"Center of Mass Moment of Inertia: "<<s.com_mominertia()<<std::endl;
+  std::cout<<"Center of Mass Moment of Inertia: "<<s.com_mominertia()<<" Kgm^2"<<std::endl;
 
   std::cout<<"-------------------------------------------------------------"<<std::endl;
 
@@ -28,8 +28,9 @@ int main(){
   Rod r("Rod",2.,5.);
   r.print();
   double com_mom_interia_rod = r.com_mominertia();
-  std::cout<<"Center of Mass Moment of Inertia: "<<com_mom_interia_rod<<std::endl;
+  std::cout<<"Center of Mass Moment of Inertia: "<<com_mom_interia_rod<<" Kgm^2"<<std::endl;
   double kinetic_energy_rod = r.kinetic_energy(2*M_PI,2.5);
   std::cout<<"Kinetic Energy: "<<kinetic_energy_rod<<" Joules"<<std::endl;
+
 
 }
