@@ -3,6 +3,7 @@
 Solid::Solid(const std::string& name,double m){
     name_ = name;
     m_ = m;
+    //length_ = length;
 
 
 }
@@ -18,4 +19,13 @@ std::string Solid::name() const {
 
 double Solid::mass() const {
     return m_;
+}
+
+// double Solid::length() const {
+//     return length_;
+// }
+
+void Solid::set_mass(double m){
+
+    m_ = m;
 }
